@@ -1,13 +1,14 @@
 package com.vj.maven;
 
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.Assert.*;
 
-class HelloMavenTest {
+public class HelloMavenTest {
 
     @Test
-    void getHello() {
-        assertEquals("Hello World",new HelloMaven().getHello());
+    public void getHello() {
+        HelloMaven helloMaven = new HelloMaven();
+        assertEquals("Hello World",helloMaven.getHello());
     }
 }
