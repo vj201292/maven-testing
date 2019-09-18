@@ -17,3 +17,5 @@ pipeline {
         stage ('Deployment Stage') {
 
     }
+    }
+}
